@@ -1,19 +1,24 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=452390&assignment_repo_type=GroupAssignmentRepo)
-# Nome do projeto
+# Idosos no mundo digital
 
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+O objetivo geral deste trabalho é a criação de uma plataforma que promoverá o auxílio da pessoa idosa para a utilização de ferramentas tecnológicas, tais como aplicativos de smartphone, configurações de telefones, promovendo assim  a inclusão desses indivíduos e o auxílio para se tornarem cada vez mais independentes ao utilizarem seus smartphones. 
+Como objetivos específicos, podemos ressaltar:
+
+*Fornecer funcionalidades que permitam interagir com aplicativos de redes sociais, bancos, entre outros. 
+*Integrar com portais  de notícias. 
+*Interação com os familiares, através da utilização de plataformas como google meet, zoom, skype entre outras. 
+*Inclusão em plataformas de mensagens instantâneas, facilitando a comunicação. 
+
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Bernard Paes Ferreira
+* Igor Marcos Oliveira Pereira
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* Rommel Vieira
+* Rosilane Mota
 
 ## Instruções de utilização
 
