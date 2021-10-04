@@ -84,6 +84,14 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 ![Kanban  - Copia](https://user-images.githubusercontent.com/89430043/135814548-a6ac1868-8310-426c-b65f-0d5d4b25885e.png)
 
 
+
+*Opções de atividades:  Essa coluna é referente a todas as demandas disponíveis para serem trabalhadas e lidades. Para a iniciação de uma nova atividade é necessário se certificar de que o quadro esteja sem entregas atrasadas, cumprindo toda a sua ddl final. Dessa forma, o quadro é observado da direita para a esquerda, verificando sempre as pendências. 
+
+*Em progresso:  Essa coluna é referente às entregas que estão sendo desenvolvidas, contendo o nome do responsável por aquela entrega,  o prazo final da entrega. Devendo a comunicação e transparência do desenvolvimento das atividades para o não acúmulo e sobrecarga de trabalhos desempenhados simultaneamente. 
+
+*Concluído:  Nessa coluna nos certificamos sobre as entregas que foram realizadas, verificando a quantidade de	tempo que foi desempenhada em cada atividade, cabendo nessa etapa o levantamento de mensuráveis e review sobre o processo desempenhado. 
+
+
 ![Mapa de Stakeholder](https://user-images.githubusercontent.com/89430043/135814554-aca04efc-e504-4eba-8fc2-bdf34594888f.jpg)
 
 
