@@ -179,5 +179,14 @@ Com base na estrutura padrão, o bloco de Conteúdo traz as notícias em destaqu
 
 
 
+# Tela - Quem somos
+
+* Nesta página, apresentamos a equipe do mundo digital, sócios, como surgiu e o desenvolvimento da ideia, além de conter também informações garantindo a transparência das atividades que são desenvolvidas
+
+![Wireframe 4 1](https://user-images.githubusercontent.com/89430043/135815416-0c694fc3-cc9d-444b-bbbb-ab1f8cae3e25.jpg)
+
+
+
+
 
 
