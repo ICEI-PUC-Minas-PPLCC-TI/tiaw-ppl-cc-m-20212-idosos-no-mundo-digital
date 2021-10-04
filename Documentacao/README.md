@@ -183,10 +183,25 @@ Com base na estrutura padrão, o bloco de Conteúdo traz as notícias em destaqu
 
 * Nesta página, apresentamos a equipe do mundo digital, sócios, como surgiu e o desenvolvimento da ideia, além de conter também informações garantindo a transparência das atividades que são desenvolvidas
 
+![somos](https://user-images.githubusercontent.com/89430043/135816562-02c4dbeb-2313-4e86-9caf-30fdbc6ea717.jpg)
+
+
+# Tela - Noticias 
+* A tela apresenta ao usuário as principais notícias, contendo informações acerca dos diversos campos do conhecimento, o usuário ficará responsável de filtrar e selecionar a reportagem que possui maior interesse. Em sequência o usuário é redirecionado para uma nova pagina de noticia onde possui acesso a outros tipos de notícias e maiores detalhamentos de reportagens que mais lhe chamaram a atenção. 
+
 ![Wireframe 4 1](https://user-images.githubusercontent.com/89430043/135815416-0c694fc3-cc9d-444b-bbbb-ab1f8cae3e25.jpg)
 
 
+![Wireframe 4 2](https://user-images.githubusercontent.com/89430043/135815417-d49fdcc7-ae5d-4125-8090-4ae5024d08c5.jpg)
 
+
+![Wireframe 4](https://user-images.githubusercontent.com/89430043/135815419-0f02b37c-b631-469c-8fe3-3adf6a828107.jpg)
+
+
+# Tela - Artigos
+* O usuário possui acesso aos mais diversos tipos de artigos, além disso conta também com um tutorial que permite ao usuário navegar sobre os principais assuntos. 
+
+![Wireframe 5](https://user-images.githubusercontent.com/89430043/135815423-ceaa551c-c51e-4bde-b5c2-0c69eba3488e.jpg)
 
 
 
