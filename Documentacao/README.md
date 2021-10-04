@@ -59,3 +59,38 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
 
 
+### Metodologias
+
+Metodologia
+A metodologia contempla as definições de ferramental utilizado pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
+
+Além de conter as informações relevantes para o desenvolvimento do projeto e da solução, contendo também as validações de solução propostas juntamente com o público. Contendo também todo o avanço alcançado até o momento. 
+Relação de Ambientes de Trabalho
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue. 
+
+### Gerenciamento de Projetos
+
+Gerenciamento do Projeto
+A equipe utiliza metodologias ágeis, tendo escolhido o método Kanban para a aplicação do projeto e acompanhamento do desenvolvimento. 
+
+A equipe está organizada da seguinte maneira:
+
+
+Rosilaine - Kanban Management 
+Bernard Paes -  Desenvolvedor Full Stack
+Igor Marcos Pereira - Desenvolvedor Front End
+
+
+Para acompanhamento do fluxo de entregas de demandas de trabalho a equipe está se organizando da seguinte forma: 
+
+
+Opções de atividades:  Essa coluna é referente a todas as demandas disponíveis para serem trabalhadas e lidades. Para a iniciação de uma nova atividade é necessário se certificar de que o quadro esteja sem entregas atrasadas, cumprindo toda a sua ddl final. Dessa forma, o quadro é observado da direita para a esquerda, verificando sempre as pendências.
+
+Em progresso:  Essa coluna é referente às entregas que estão sendo desenvolvidas, contendo o nome do responsável por aquela entrega,  o prazo final da entrega. Devendo a comunicação e transparência do desenvolvimento das atividades para o não acúmulo e sobrecarga de trabalhos desempenhados simultaneamente. 
+
+Concluído:  Nessa coluna nos certificamos sobre as entregas que foram realizadas, verificando a quantidade de	tempo que foi desempenhada em cada atividade, cabendo nessa etapa o levantamento de mensuráveis e review sobre o processo desempenhado. 
+
+O quadro kanban do grupo está disponível através da URL https://miro.com/app/board/o9J_lyTYE0w=/  e é apresentado na Figura acima. 
+
+
+
