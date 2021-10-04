@@ -81,6 +81,21 @@ Além de conter as informações relevantes para o desenvolvimento do projeto e 
 Relação de Ambientes de Trabalho
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue. 
 
+![Kanban  - Copia](https://user-images.githubusercontent.com/89430043/135814548-a6ac1868-8310-426c-b65f-0d5d4b25885e.png)
+
+
+![Mapa de Stakeholder](https://user-images.githubusercontent.com/89430043/135814554-aca04efc-e504-4eba-8fc2-bdf34594888f.jpg)
+
+
+![Matriz CSD](https://user-images.githubusercontent.com/89430043/135814558-6a0650a3-13d8-4607-b3ca-41a57240a2e5.jpg)
+
+
+![PEersona e Mapa da empatia](https://user-images.githubusercontent.com/89430043/135814561-404bc69e-5779-4449-ba74-06c0bea14376.jpg)
+
+
+![Persona e mapa da empatia - Copia](https://user-images.githubusercontent.com/89430043/135814568-c66b446f-447f-4a87-93a4-f546a13c1cdb.jpg)
+
+
 ### Gerenciamento de Projetos
 
 Gerenciamento do Projeto
