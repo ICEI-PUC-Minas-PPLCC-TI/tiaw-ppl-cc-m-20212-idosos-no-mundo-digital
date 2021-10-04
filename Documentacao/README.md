@@ -130,3 +130,37 @@ O quadro kanban do grupo está disponível através da URL https://miro.com/app/
 
 
 
+### Projeto de Interface:
+
+Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como agilidade, acessibilidade e usabilidade. Desta forma, o projeto tem uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis.
+
+* Fluxo do Usuário
+
+O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o https://www.figma.com/file/Hwd5gNwku9eEsTNnEOcftj/Wireframe?node-id=0%3A1. 
+
+![Fluxo do usuário](https://user-images.githubusercontent.com/89430043/135815397-b0a08fba-b753-4c36-960b-b04c17d295c4.jpg)
+
+### Wireframes
+
+Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam uma estrutura comum que é apresentada na Figura X. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:
+* Cabeçalho - local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu da aplicação);
+* Conteúdo - apresenta o conteúdo da tela em questão;
+* Barra lateral - apresenta os elementos de navegação secundária, geralmente associados aos elementos do bloco de conteúdo.
+
+![cabecalho](https://user-images.githubusercontent.com/89430043/135815677-4ebbe0c5-92dc-4622-86ff-dd35ba08bbf1.jpg)
+
+# Tela - Home-Page
+A tela de home-page mostra notícias de destaque a partir da API utilizada pelo sistema. 
+Com base na estrutura padrão, o bloco de Conteúdo traz as notícias em destaque (imagem, título, data, fonte e resumo, ícone de compartilhamento). O bloco da Barra Lateral traz três elementos distintos:
+
+* Componente de pesquisa que permite substituir o conteúdo da página com o resultado da busca solicitada pelo usuário;
+* Componente de notícias preferidas que leva o usuário para a tela de Notícias Preferidas;
+* Componente de lista de categorias que dá acesso às páginas de cada uma das seções disponibilizadas.
+
+![Wireframe 1](https://user-images.githubusercontent.com/89430043/135815402-67ae85b2-36f9-40ba-a532-c2a42ef39d8a.jpg)
+
+
+
+
+
+
