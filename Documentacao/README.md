@@ -8,11 +8,11 @@ Concomitantemente, temos uma crescente população de idosos com 30,2 milhões d
 
  Tendo como base os dados expostos, podemos analisar a necessidade de inclusão desse grupo de indivíduos de participar do mundo digital e usufruir de bens e serviços digitais para melhorar a qualidade dessas pessoas e ainda contribuir para economia de modo geral.
  
- ## Problemas
+ # Problemas
  
  Segundo a  Federação Brasileira de Bancos ( FEBRABAN) o golpes financeiros em idosos cresceram cerca de 60% em 2020. Além disso, a vulnerabilidade tecnológica que essa faixa etária enfrenta corrobora não somente para a aplicação de golpes, mas também para o afastamento social desses indivíduos junto a sociedade.
  
- ### Objetivos
+ # Objetivos
  
  O objetivo geral deste trabalho é a criação de uma plataforma que promoverá o auxílio da pessoa idosa para a utilização de ferramentas tecnológicas, tais como aplicativos de smartphone, configurações de telefones, promovendo assim  a inclusão desses indivíduos e o auxílio para se tornarem cada vez mais independentes ao utilizarem seus smartphones. 
 Como objetivos específicos, podemos ressaltar:
@@ -22,57 +22,57 @@ Como objetivos específicos, podemos ressaltar:
 * Interação com os familiares, através da utilização de plataformas como google meet, zoom, skype entre outras. 
 * Inclusão em plataformas de mensagens instantâneas, facilitando a comunicação. 
 
-### Justificativas
+# Justificativas
 
 Segundo um estudo realizado pela Faculdade de Medicina de Ribeirão Preto (FMRP) da USP, a população idosa em sua maioria aceita a utilização de equipamentos tecnológicos. Entretanto, do total de entrevistados, 24% afirmam ter medo de utilizar o aparelho, além de 40% relataram que possuem receio em danificar o aparelho. 
 
 Além disso, segundo uma outra pesquisa em parceria com Offer Wise Pesquisas afirmou que a população com idade maior de 60 anos, aumentou de 68% para 97% em 2021. Nesse sentido, urge a necessidade de uma plataforma que promove a pessoa idosa uma maior inclusão social e tecnológica. 
 
-### Público Alvo
+# Público Alvo
 Nossa solução parte ao encontro da população idosa, com faixa etária a partir de 60 anos, entretanto, todas as faixas etárias que possuem dificuldade com smartphone ou plataformas, podem se beneficiar. 
 
 Além disso, ainda segundo a pesquisa do Offer Wise, além do aumento da utilização de aplicativos deve-se destacar os seguintes que são mais comuns entre essa faixa etária tais como: redes sociais, aplicativos de transporte, serviços bancários, Whatsapp, Facebook e Youtube. 
 
-## Especificaçãodo Projeto
+# Especificaçãodo Projeto
 
 A definição do trabalho e da proposta de solução acerca da população idosa, foi proposta por uma dupla que visualizando o problema e as dificuldades apresentadas surge ao encontro de promover uma melhor acessibilidade dessa população na sociedade, promovendo uma inclusão mais efetiva e realizando o estreitamento de laços com os familiares.               
 
-### Personas
+# Personas
 
 As duas personas desenvolvidas no trabalho seguem abaixo sendo apresentadas:
 
 ![personas ](https://user-images.githubusercontent.com/89430043/135813789-cb8f6a85-f8ba-4251-a188-a64203f2f270.jpg)
 
 
-### Histórias de Usuários 
+# Histórias de Usuários 
 A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
 
 ![Historia de usuarios](https://user-images.githubusercontent.com/89430043/135813621-a7c8ea7f-1de4-485b-8878-12c1f1176fc4.jpg)
 
 
-### Requisitos do Projeto
+# Requisitos do Projeto
 O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
 
 
-### Requisitos Funcionais
+# Requisitos Funcionais
 A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues.
 ![Requisitos Funcionais ](https://user-images.githubusercontent.com/89430043/135812624-2ae3601f-17be-4c59-a36d-029669d58f5a.jpg)
 
 
-### Requisitos Não-Funcionais
+# Requisitos Não-Funcionais
 A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
 
 ![requisitos nao funcionais ](https://user-images.githubusercontent.com/89430043/135812998-a5b493ce-9700-4e9f-b192-fe473ee89da2.jpg)
 
 
-### Restrições 
+# Restrições 
 
 As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir.
 
 ![restricoes](https://user-images.githubusercontent.com/89430043/135813417-b9faf580-2e0f-4c14-8045-01d27fbc6542.jpg)
 
 
-### Metodologias
+# Metodologias
 
 Metodologia
 A metodologia contempla as definições de ferramental utilizado pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
@@ -104,7 +104,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 ![Persona e mapa da empatia - Copia](https://user-images.githubusercontent.com/89430043/135814568-c66b446f-447f-4a87-93a4-f546a13c1cdb.jpg)
 
 
-### Gerenciamento de Projetos
+# Gerenciamento de Projetos
 
 Gerenciamento do Projeto
 A equipe utiliza metodologias ágeis, tendo escolhido o método Kanban para a aplicação do projeto e acompanhamento do desenvolvimento. 
@@ -130,7 +130,7 @@ O quadro kanban do grupo está disponível através da URL https://miro.com/app/
 
 
 
-### Projeto de Interface:
+# Projeto de Interface:
 
 Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como agilidade, acessibilidade e usabilidade. Desta forma, o projeto tem uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis.
 
@@ -140,7 +140,7 @@ O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pel
 
 ![Fluxo do usuário](https://user-images.githubusercontent.com/89430043/135815397-b0a08fba-b753-4c36-960b-b04c17d295c4.jpg)
 
-### Wireframes
+# Wireframes
 
 Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam uma estrutura comum que é apresentada na Figura X. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:
 * Cabeçalho - local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu da aplicação);
