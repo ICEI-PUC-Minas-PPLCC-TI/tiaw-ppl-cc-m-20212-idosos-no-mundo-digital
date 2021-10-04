@@ -160,6 +160,23 @@ Com base na estrutura padrão, o bloco de Conteúdo traz as notícias em destaqu
 ![Wireframe 1](https://user-images.githubusercontent.com/89430043/135815402-67ae85b2-36f9-40ba-a532-c2a42ef39d8a.jpg)
 
 
+# Tela - Tutoriais 
+
+* A tela de tutoriais, contém informações sobre como realizar o acesso seguro em aplicativos, e  sites.
+
+![Wireframe 2](https://user-images.githubusercontent.com/89430043/135815410-fbdb3c4f-7fe6-4b32-8fc6-ef0f6465c70f.jpg)
+
+
+![Wireframe 2 1](https://user-images.githubusercontent.com/89430043/135815406-0c76e40d-1511-4ce5-b90d-d60f204118dd.jpg)
+
+
+
+# Tela - O movimento 
+
+* Assim que o usuário acessa pela home encontra-se disponível o acesso do movimento, que mostra ao usuário como surgiu a plataforma principais entregas .
+
+![Wireframe 3](https://user-images.githubusercontent.com/89430043/135815412-486fe6b4-f0f0-477f-a085-437dfe102fbd.jpg)
+
 
 
 
