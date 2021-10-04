@@ -59,6 +59,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 ### Requisitos Não-Funcionais
 A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
 
+![requisitos nao funcionais ](https://user-images.githubusercontent.com/89430043/135812998-a5b493ce-9700-4e9f-b192-fe473ee89da2.jpg)
 
 ### Metodologias
 
