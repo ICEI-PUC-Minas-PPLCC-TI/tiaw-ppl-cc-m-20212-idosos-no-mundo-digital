@@ -61,6 +61,14 @@ A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá 
 
 ![requisitos nao funcionais ](https://user-images.githubusercontent.com/89430043/135812998-a5b493ce-9700-4e9f-b192-fe473ee89da2.jpg)
 
+
+### Restrições 
+
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir.
+
+![restricoes](https://user-images.githubusercontent.com/89430043/135813417-b9faf580-2e0f-4c14-8045-01d27fbc6542.jpg)
+
+
 ### Metodologias
 
 Metodologia
