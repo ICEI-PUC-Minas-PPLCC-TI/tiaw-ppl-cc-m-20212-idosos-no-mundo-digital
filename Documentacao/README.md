@@ -41,10 +41,13 @@ A definição do trabalho e da proposta de solução acerca da população idosa
 
 As duas personas desenvolvidas no trabalho seguem abaixo sendo apresentadas:
 
-! [Imagem Persona] (img/image.png)
+![personas ](https://user-images.githubusercontent.com/89430043/135813789-cb8f6a85-f8ba-4251-a188-a64203f2f270.jpg)
+
 
 ### Histórias de Usuários 
 A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
+
+![Historia de usuarios](https://user-images.githubusercontent.com/89430043/135813621-a7c8ea7f-1de4-485b-8878-12c1f1176fc4.jpg)
 
 
 ### Requisitos do Projeto
