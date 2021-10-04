@@ -191,10 +191,10 @@ Com base na estrutura padrão, o bloco de Conteúdo traz as notícias em destaqu
 
 
 
-![Wireframe 4 2](https://user-images.githubusercontent.com/89430043/135815417-d49fdcc7-ae5d-4125-8090-4ae5024d08c5.jpg)
-
-
 ![Wireframe 4](https://user-images.githubusercontent.com/89430043/135815419-0f02b37c-b631-469c-8fe3-3adf6a828107.jpg)
+
+
+![Wireframe 4 2](https://user-images.githubusercontent.com/89430043/135815417-d49fdcc7-ae5d-4125-8090-4ae5024d08c5.jpg)
 
 
 # Tela - Artigos
