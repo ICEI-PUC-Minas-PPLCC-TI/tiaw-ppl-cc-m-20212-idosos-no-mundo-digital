@@ -1,0 +1,62 @@
+/*Cabeçalho*/
+#containerLogo{
+  border-style: solid;
+  border-color: rgb(156, 154, 154);
+  margin-top: 30px;
+  border-radius: 12px;
+   margin-bottom: 40px;
+}
+#logo{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-left: 175px;
+}
+
+#logoTitulo{
+  color: rgb(0, 199, 199);
+  font-family:'Montserrat', sans-serif;
+  font-size: 350%;
+  text-transform: lowercase;
+  text-rendering: optimizeLegibility;
+}
+#navbar a{
+  color: white;
+}
+#cabecalho{
+  color: white;
+  background: rgb(0, 199, 199)
+}
+/*Footer*/
+h3{
+  font-family:'Montserrat', sans-serif;
+  text-rendering: optimizeLegibility;
+  background-color: rgb(0, 199, 199);
+  border-top-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+#redesIcon{
+  margin-top: 20px;
+  align-items: center;  
+}
+.grid1 a{
+  color: black;
+}
+.grid1 img{
+  margin-left: 120px;
+}
+*Menu*/
+#menuLateral, #v-pills-tab{
+  color: black;
+  text-align: center;
+  margin-right: 35px;
+
+}
+#v-pills-tab:read-only{
+ background-color: rgb(0, 199, 199);
+}
+.nav-link{
+  color: rgb(0, 199, 199);
+}

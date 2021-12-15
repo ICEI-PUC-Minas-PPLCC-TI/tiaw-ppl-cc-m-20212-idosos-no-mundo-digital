@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body
+{
+ background-color: rgb(0, 199, 199);
+}
+
+.container
+{
+  width: 400px;
+  display: block;
+  justify-content: center;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 30px;
+  background-color: #ffffff; /*Defini a cor da caixa de login */
+  border: 2px solid;
+  border-radius: 15px;
+  border-color: black black black black ;
+  box-shadow: 3px 3px 1px 0px #00000070;
+}
+
+h1
+{
+text-align: center;
+margin-bottom: 20px;
+}
+
+.label-float input
+{
+  width: 100%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 0;
+  border-bottom: 2px solid rgb(0, 199, 199);
+  background-color: transparent;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: all .2s ease-out;
+}
+
+.label-float input: focus
+{
+ border-bottom:2px solid rgba(0, 199, 199, 0.253);
+}
+
+
+.label-float 
+{
+  position: relative;
+  padding-top: 13px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.label-float label
+{
+  pointer-events: none;
+  position: absolute;
+  top:0;
+  left: 0;
+  margin-top: 13px;
+  transition: all .2s ease-out;
+}
+
+.label-float input:focus+label,
+.label-float input:valid+label
+{
+ font-size:13px;
+ margin-top: 0px;
+ color: rgba(0, 199, 199, 0.253);
+}
+
+button
+{
+background-color: transparent;
+border-color: rgb(0, 199, 199);
+color: rgba(0, 199, 199, 0.938);
+padding: 7px;
+padding-bottom: 7px;
+font-weight: bold;
+font-size: 12pt;
+margin-top: 20px;
+border-radius: 5px;
+cursor: pointer;
+outline: none;
+}
+
+button:hover
+{
+background-color: rgba(0, 199, 199, 0.253);
+color:black;
+transition: all .1s ease-out;
+}
+
+.justify-center
+{
+  display:center;
+  justify-content: center;
+  padding-left: 110px;
+  padding-right: 100px;
+  padding-bottom: 10px;
+}
+
+#msgError
+{
+  text-align: center;
+  color: #ff0000;
+  background-color: #ffbbbb;
+  padding: 10px;
+  border-radius: 4px ;
+  display: none;
+}
+
+#msgSucess
+{
+  text-align: center;
+  color: 00bb00;
+  background-color: bbffbe;
+  padding: 10px;
+  border-radius: 4px ;
+  display: none;
+}
+
+
+

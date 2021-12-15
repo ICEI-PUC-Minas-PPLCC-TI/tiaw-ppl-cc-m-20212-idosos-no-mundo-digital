@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="login.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+  <div class="container">
+      <div class="card">
+        <h1>Cadastro</h1>
+      </div>
+
+      <div id='msgError'></div>
+      <div id='msgSucess'></div>
+    
+
+      <div class="label-float">
+        <input type='text' id='nome' paceholder='' required>
+        <label id="labelNome" for='usuario'>Nome</label>
+      </div>
+
+       <div class="label-float">
+        <input type='text' id='email' paceholder='' required>
+        <label id="labelEmail"for='email'>Email</label>
+      </div>
+
+
+      <div class="label-float">
+        <input type='password' id='senha' paceholder=''required>
+        <label id="labelSenha" for='senha'>Senha</label>
+      </div>
+
+        <div class="label-float">
+        <input type='password' id='confirmsenha' paceholder=''required>
+        <label id="labelConfirmsenha" for='confirmsenha'>Confirme Senha</label>
+      </div>
+
+      <div class='justify-center'> 
+        <button onclick='cadastrar()' >Cadastrar!</button>
+      </div>
+
+
+      <div class='justify-center'> 
+        <hr>
+      </div>
+
+      
+  </div>
+
+
+ 
+</body>
+</html>

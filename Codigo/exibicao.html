@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro de artigos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="exibicao.css">
+</head>
+
+
+<body onload="init()">
+    <header class="container" id="containerLogo">
+       <div class="container" id="logo">
+        <h1 id="logoTitulo">Mundo Digital</h1>
+        <img src="imagens/noticias/logoFooter.jpeg" id="logoImagem">
+        </div>
+        <nav class=" navbar-center navbar-dark" id="cabecalho">
+        <div class="container">
+        <ul class="nav justify-content-center" id="navbar">
+        <li class="nav-item">
+          <a class="nav-link active" href="tutorial.html">Tutoriais</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="noticias.html">Noticias</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="nossomovimento.html">Construindo um movimento</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sobrenos.html">Sobre nós</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cadastroNoticias.html">Cadastro de Noticias</a>
+        </li>
+        </ul>
+      </div>
+      </nav>
+      </header>
+     
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <table id="grid-artigos" class="table table-striped">
+                    <thead class="tabela">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Titulo</th>
+                            <th scope="col">Autor</th>
+                            <th scope="col">Categoria</th>
+                            <th scope="col">Texto</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody id="table-artigos">
+                        <tr>
+                            <td scope="row">1</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="exibicao.js"></script>
+    <script>
+        function exibeArtigos() {
+            // Remove todas as linhas do corpo da tabela
+            $("#table-artigos").html("");
+
+            // Popula a tabela com os registros do banco de dados
+            for (i = 0; i < db.data.length; i++) {
+                let artigo = db.data[i];    
+                $("#table-artigos").append(`<tr><td scope="row">${artigo.id}</td>
+                                                <td>${artigo.titulo}</td>
+                                                <td>${artigo.autor}</td>
+                                                <td>${artigo.categoria}</td>
+                                                <td>${artigo.texto}</td>
+                                            </tr>`);
+            }
+        }
+
+        function init() {
+            // Adiciona funções para tratar os eventos 
+            $("#btnInsert").click(function () {
+                // Verfica se o formulário está preenchido corretamente
+               if (!$('#form-artigo')[0].checkValidity()) {
+                    displayMessage("Preencha o formulário corretamente.");
+                    return;
+                }
+
+                // Obtem os valores dos campos do formulário
+                let campoTitulo = $("#inputTitulo").val();
+                let campoTexto = $("#inputTexto").val();
+                let campoAutor = $("#inputAutor").val();
+                let campoCategoria = $('#inputCategoria').val();
+                let artigo = { titulo: campoTitulo, 
+                    texto: campoTexto, 
+                    autor: campoAutor, 
+                    categoria: campoCategoria };
+
+
+                insertArtigo(artigo);
+
+                // Reexibe os contatos
+                exibeArtigos();
+
+                // Limpa o formulario
+                $("#form-artigo")[0].reset();
+            });
+
+            // Intercepta o click do botão Alterar
+            $("#btnUpdate").click(function () {
+                // Obtem os valores dos campos do formulário
+                let campoId = $("#inputId").val();
+                if (campoId == "") {
+                    displayMessage("Selecione um artigo para ser alterado.");
+                    return;
+                }
+                let campoTitulo = $("#inputTitulo").val();
+                let campoTexto = $("#inputTexto").val();
+                let campoAutor = $("#inputAutor").val();
+                let campoCategoria = $("#inputCategoria").val();
+                let artigo = { titulo: campoTitulo, 
+                    texto: campoTexto, 
+                    autor: campoAutor, 
+                    categoria: campoCategoria};
+
+                updateArtigo(parseInt(campoId), artigo);
+
+                // Reexibe os Artigos
+                exibeArtigos();
+
+                // Limpa o formulario
+                $("#form-artigo")[0].reset();
+            });
+
+            // Intercepta o click do botão Excluir
+            $("#btnDelete").click(function () {
+                let campoId = $("#inputId").val();
+                if (campoId == "") {
+                    displayMessage("Selecione um artigo a ser excluído.");
+                    return;
+                }
+                deleteArtigo(parseInt(campoId));
+
+                // Reexibe os artigo
+                exibeArtigos();
+
+                // Limpa o formulario
+                $("#form-artigo")[0].reset();
+            });
+
+            // Intercepta o click do botão Listar Artigos
+            $("#btnClear").click(function () {
+                $("#form-artigo")[0].reset();
+            });
+
+            // Oculta a mensagem de aviso após alguns segundos
+            $('#msg').bind("DOMSubtreeModified", function () { 
+                window.setTimeout(function () {
+                    $(".alert").fadeTo(500, 0).slideUp(500, function () {
+                        $(this).remove();
+                    });
+                }, 5000);
+            });
+
+            // Preenche o formulário quando o usuario clicar em uma linha da tabela 
+            $("#grid-artigos").on("click", "tr", function (e) {
+                let linhaArtigo = this;
+                colunas = linhaArtigo.querySelectorAll("td");
+
+                $("#inputId").val(colunas[0].innerText);
+                $("#inputTitulo").val(colunas[1].innerText);
+                $("#inputTexto").val(colunas[2].innerText);
+                $("#inputAutor").val(colunas[3].innerText);
+                $("#inputCategoria").val(colunas[4].innerText);
+            });
+
+            exibeArtigos();
+        }
+    </script>
+</body>
+<footer class="container">
+        <section class="row infos">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                <div class="redes">
+                    <h3>Redes Sociais</h3>
+                    <nav class="nav redes" id="redesIcon">
+                        <a class="nav-link active" href="#"><i class="fab fa-facebook-square text-dark fa-3x"></i></a>
+                        <a class="nav-link" href="#"><i class="fab fa-instagram icon-lg text-dark fa-3x"></i></a>
+                        <a class="nav-link" href="#"><i class="fab fa-linkedin icon-lg text-dark fa-3x"></i></a>
+                    </nav> 
+                </div>         
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="grid1">
+                     <img src="imagens/noticias/logoFooter.jpeg">
+                </div>         
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                <div class="grid1">
+                    <h3>Mapa do Site</h3>
+                    <ul>
+                      <li><a href="">Inicio</a></li>
+                      <li><a href="">Tutoriais</a></li>
+                      <li><a href="">Noticias</a></li>
+                    </ul>
+                </div>
+            </div>  
+        </section>
+        <p1> © Todos os direitos reservados | Idosos no Mundo Digital</p1>
+      </footer>
+
+</html>
