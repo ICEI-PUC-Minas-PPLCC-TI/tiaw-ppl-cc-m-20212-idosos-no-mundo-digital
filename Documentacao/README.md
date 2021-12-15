@@ -211,6 +211,8 @@ Com base na estrutura padrão, o bloco de Conteúdo traz as notícias em destaqu
 https://www.figma.com/file/Hwd5gNwku9eEsTNnEOcftj/Wireframe?node-id=0%3A1
 
 # Teste de Software:
+*Para o desenvolvimento dos testes de software acesse nossa plataforma através do link abaixo:
+https://Sprint-4.bernardpaes.repl.co
 
 | # | Cenário                    | Requisito Funcional | Ações                                                                                                                                                                                                    | Resultados Esperados                                                                                                                                                                                                              |
 |---|----------------------------|---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
