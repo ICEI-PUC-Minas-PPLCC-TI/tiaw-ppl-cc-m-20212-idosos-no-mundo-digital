@@ -211,6 +211,7 @@ Com base na estrutura padrão, o bloco de Conteúdo traz as notícias em destaqu
 https://www.figma.com/file/Hwd5gNwku9eEsTNnEOcftj/Wireframe?node-id=0%3A1
 
 #Teste de Software:
+
 |#| Cenário | Requisito Funcional | Ações | Resultados esperados|
 |1|Artigo    |Site funcional  |1. Acessar tela de cadastro de artigos
 2. Informar um título, texto, autor e
