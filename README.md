@@ -23,3 +23,31 @@ Como objetivos específicos, podemos ressaltar:
 ## Instruções de utilização
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+
+## Criterios de Avaliação:
+###Contexto:
+*Problema
+*Objtivos. 
+*Publico Alvo
+*Justificativa
+*Artefatos
+
+###Projetos de Solução:
+*Requisitos
+*Restrições. 
+*Projeto de interface
+*Arquiteturas
+*Tecnologias
+
+
+###Metodologia de trabalho:
+*Processo: Foi dividido entre os integrantes as tarefas a serem desempenhadas nas sprints .
+*Atribuições: Bernard Paes: Funcionalidades de cadastro, Personas, Cadastro de nóticias, ; Igor Marcos: Funcionalidades de login e cadastro, Mapa de Stakeholders, Publico Alvo. 
+*Ferramentas: Replit; Linguagens HTML, CSS e JavaScript; GitHub; Figma, Miro, Kanban, Google Forms, Slides e Docs; 
+
+
+###Solução Implementada:
+* MundoDigital
+
+###Testes de Software e Testes de Usabilidade:
+*
