@@ -228,10 +228,11 @@ https://Sprint-4.bernardpaes.repl.co
 
 ### Objetivos dos testes:
 
-- Identificação de erros e de melhorias da plataforma visando uma comunicação acessivél e didatica em todo o conteúdo do site e recursos disponiveis. 
-- Verificação sobre as funcionalidades e aplicações se encontram corretas e funcionando normalmente sem qualquer regularidade, incluindo as noticias que compõem a plataforma. 
+- Identificação de erros e de melhorias da plataforma, visando uma comunicação acessivél e didatica em todo o conteúdo do site, e recursos disponiveis. 
+- Verificação sobre as funcionalidades e aplicações, encontram-se corretas e funcionando normalmente sem qualquer iregularidade, incluindo as noticias que compõem a plataforma. 
 
 ### Detalhes do público envolvido nos testes:
+
 - Após realizarmos um levantamento de principais dificuldades do nosso público alvo, e como a nossa plataforma poderia ser melhor adaptada para uma experiência mais interessante  elaboramos a solução e disponibilizarmos para testes com algumas pessoas idosas. Percebemos que o layout da nossa plataforma facilitou a navegação das população, e a integração com reportagens trouxe para os mesmos um acesso facilitado as reportagens que eles possuem interesse. Entretanto o campo de login por exemplo teve criticas a cerca da sua funcionalidade, visto que as pessoas que realizaram o teste não conseguiram entender o motivo de criar uma conta em nossa plataforma. 
 
 ### Roteiro das tarefas e testes realizados pelos usuários 
@@ -242,14 +243,14 @@ https://Sprint-4.bernardpaes.repl.co
   
   Voluntarios que realizaram o teste de usabilidade e colheitas de feedback: 
   
-      - Ana Martins, aposentada, não realiza a navegação em sites pois possui medo de golpes e clonagem de informações. 
-      - Dalva Dias, aposentada, navega na internet com auxilio dos familiares. 
-      - Maria de Fátima, aposentada mas efetua atividade remunerada, utiliza o celular para navegar e buscar informações sobre o transporte público. 
-      - Alcebiades Barbosaa, aposentado, é comerciante de um bar local onde precisa acessar a internet para utilizar streaming de músicas e de jogos que são transmitidos no seu estabelecimento. 
+ - Ana Martins, aposentada, não realiza a navegação em sites pois possui medo de golpes e clonagem de informações. 
+ - Dalva Dias, aposentada, navega na internet com auxilio dos familiares. 
+ - Maria de Fátima, aposentada mas efetua atividade remunerada, utiliza o celular para navegar e buscar informações sobre o transporte público. 
+ - Alcebiades Barbosaa, aposentado, é comerciante de um bar local onde precisa acessar a internet para utilizar streaming de músicas e de jogos que são transmitidos no seu estabelecimento. 
       
       
 ### Principais Problemas Identificados
 - Campo de login, não é possivél salvar as informações no localStorage a equipe busca uma solução, ao que tudo indica a funcionalidade precisa que o arquivo seja importado como file, pois da forma escrita no código só permite submeter se estiver com o código JS com trechos no html. 
 - Layout do site, é necessário que ele fique mais dinamico e com acesso mais facilitado e intuitivo para que o usuario entenda como navegar da melhor forma. 
 - UX mais adaptado para a 3º idade, visto que eles precisam de letras e  botões maiores. 
--
+
