@@ -220,3 +220,36 @@ https://Sprint-4.bernardpaes.repl.co
 | 2 | Alterar Artigo | ● Site funcional      | ● Acessar tela de cadastro de artigos<br>  ● Informar clicando em ID e alterar os dados nos formulários<br>  ● Confirmar a validação<br>  ● Aguardar o resultado                                                                       | ● Após a confirmação, o sistema irá apresentar a alteração dos dados na posição ID selecionada                                                |
 | 3 | Excluir artigo | ● Site funcional             | ● Acessar tela de cadastro de artigos<br>  ● Informar o ID clicando no formulário que será excluído<br>  ● Confirmar o registro da alteração<br>  ● Aguardar o resultado | ● Os dados do Local Storage selecionado serão excluídos  |
 | 4 | Cancelar Formulário                   | ● Site funcional              | ● Acessar tela de cadastro de artigos<br>  ● Digite os dados solicitados<br>  ● Para cancelar os dados clique em limpar form<br>  ● Aguardar o resultado                                                                                    | ● A página deve apresentar apagar os dados digitados.                                        |
+
+
+# Teste de Usabilidade:
+
+## Plano de Testes de Usabilidade
+
+### Objetivos dos testes:
+
+- Identificação de erros e de melhorias da plataforma visando uma comunicação acessivél e didatica em todo o conteúdo do site e recursos disponiveis. 
+- Verificação sobre as funcionalidades e aplicações se encontram corretas e funcionando normalmente sem qualquer regularidade, incluindo as noticias que compõem a plataforma. 
+
+### Detalhes do público envolvido nos testes:
+- Após realizarmos um levantamento de principais dificuldades do nosso público alvo, e como a nossa plataforma poderia ser melhor adaptada para uma experiência mais interessante  elaboramos a solução e disponibilizarmos para testes com algumas pessoas idosas. Percebemos que o layout da nossa plataforma facilitou a navegação das população, e a integração com reportagens trouxe para os mesmos um acesso facilitado as reportagens que eles possuem interesse. Entretanto o campo de login por exemplo teve criticas a cerca da sua funcionalidade, visto que as pessoas que realizaram o teste não conseguiram entender o motivo de criar uma conta em nossa plataforma. 
+
+### Roteiro das tarefas e testes realizados pelos usuários 
+- Ademais, entramos em contato posteriormente com a população e solicitamos a realização de mais testes com a nossa plataforma, através do link do nosso site que pode ser acessado  [aqui](https://sprint-4.bernardpaes.repl.co/)
+<br> <br>
+
+## Registro de Testes de Usabilidade
+  
+  Voluntarios que realizaram o teste de usabilidade e colheitas de feedback: 
+  
+      - Ana Martins, aposentada, não realiza a navegação em sites pois possui medo de golpes e clonagem de informações. 
+      - Dalva Dias, aposentada, navega na internet com auxilio dos familiares. 
+      - Maria de Fátima, aposentada mas efetua atividade remunerada, utiliza o celular para navegar e buscar informações sobre o transporte público. 
+      - Alcebiades Barbosaa, aposentado, é comerciante de um bar local onde precisa acessar a internet para utilizar streaming de músicas e de jogos que são transmitidos no seu estabelecimento. 
+      
+      
+### Principais Problemas Identificados
+- Campo de login, não é possivél salvar as informações no localStorage a equipe busca uma solução, ao que tudo indica a funcionalidade precisa que o arquivo seja importado como file, pois da forma escrita no código só permite submeter se estiver com o código JS com trechos no html. 
+- Layout do site, é necessário que ele fique mais dinamico e com acesso mais facilitado e intuitivo para que o usuario entenda como navegar da melhor forma. 
+- UX mais adaptado para a 3º idade, visto que eles precisam de letras e  botões maiores. 
+-
